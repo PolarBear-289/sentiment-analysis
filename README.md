@@ -6,8 +6,11 @@ It’s also known as opinion mining, deriving the opinion or attitude of a speak
 
 Steps to be followed:-
 •	Read the datasets using pandas library
+
 •	Clean the data using re library to remove all the external information, to reduce the suffix and prefix I have used nltk.snowball.steamer.
+
 •	Used word tokenizer and stopwords(English) to filter the data more.
+
 •	Split the dataset into test and train test
 •	Used count vectorizer and TFIDF to convert the data into vectors and fit them into the sets.
 •	Used Multinomial Naïve byes theorem to create the model.
